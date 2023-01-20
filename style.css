@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+body{
+    background-color: #fbdf00;
+}
+.card{
+    border: 1px solid white;
+    width: 640px;
+    height: 400px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-perspective: 1200px;
+    perspective: 1200px;
+}
+.inside , .outside{
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+}
+.inside{
+    left: 50.1%;
+}
